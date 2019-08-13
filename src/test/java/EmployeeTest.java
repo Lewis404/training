@@ -43,7 +43,7 @@ class EmployeeTest {
 	@Test
 	void testSalaryMinSuccess() {
 		Employee e = new Employee(15, "Henry Banana");
-		e.setSalary(7000);
-		assertEquals(7000, e.getSalary());
+		e.setSalary(Employee.MIN_SALARY);
+		assertEquals(Employee.MIN_SALARY, e.getSalary());
 	}
 }

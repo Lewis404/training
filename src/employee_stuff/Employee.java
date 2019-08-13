@@ -5,7 +5,7 @@ public class Employee {
 	private int number;
 	private float salary;
 	private float bonus;
-	private static final float MIN_SALARY = 10000f;
+	public static final float MIN_SALARY = 10000f;
 	private final float INITIAL_BONUS = 200f;
 	public static int instanceCount;
 
