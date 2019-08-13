@@ -1,13 +1,11 @@
 package employee_stuff;
 
-import java.util.Comparator;
-
 public class Employee {
 	private String name;
 	private int number;
 	private float salary;
 	private float bonus;
-	private static final float MIN_SALARY = 7000f;
+	private static final float MIN_SALARY = 10000f;
 	private final float INITIAL_BONUS = 200f;
 	public static int instanceCount;
 
@@ -29,14 +27,11 @@ public class Employee {
 
 	public Employee(int newNumber, String newName) {
 		this(newNumber);
-		// this.setNumber(newNumber);
 		this.setName(newName);
 	}
 
 	public Employee(int newNumber, String newName, float newSalary) {
 		this(newNumber, newName);
-//		this.setNumber(newNumber);
-//		this.setName(newName);
 		this.setSalary(newSalary);
 	}
 
