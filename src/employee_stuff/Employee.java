@@ -47,9 +47,9 @@ public class Employee {
 		return number;
 	}
 
-//	public boolean setNumber(String thisNumber) {
-//		return setNumber(Integer.parseInt(thisNumber));
-//	}
+	public boolean setNumber(String thisNumber) {
+		return setNumber(Integer.parseInt(thisNumber));
+	}
 
 	public boolean setNumber(int thisNumber) {
 		if (thisNumber > 0) {
